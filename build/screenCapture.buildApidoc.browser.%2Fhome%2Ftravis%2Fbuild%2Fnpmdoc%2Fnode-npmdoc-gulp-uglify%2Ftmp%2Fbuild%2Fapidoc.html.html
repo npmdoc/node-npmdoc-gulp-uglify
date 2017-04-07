@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/terinjokes/gulp-uglify/"
-
-    >gulp-uglify (v2.1.2)</a>
+    <a href="https://github.com/terinjokes/gulp-uglify/">gulp-uglify (v2.1.2)</a>
 </h1>
 <h4>Minify files with UglifyJS.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-uglify">module gulp-uglify</a><ol>
 
@@ -277,8 +270,8 @@
   var cause = this.cause || {};
 
   return makeErrorCause.BaseError.prototype.toString.call(this) +
-    (this.fileName ? &#x27;\nFile: &#x27; + this.fileName : &#x27;&#x27;) +
-    (cause.line ? &#x27;\nLine: &#x27; + cause.line : &#x27;&#x27;);
+    (this.fileName ? '\nFile: ' + this.fileName : '') +
+    (cause.line ? '\nLine: ' + cause.line : '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -335,7 +328,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return _super.prototype.toString.call(this) + (this.cause ? &#x22;\nCaused by: &#x22; + this.cause.toString() : &#x27;&#x27;);
+    return _super.prototype.toString.call(this) + (this.cause ? "\nCaused by: " + this.cause.toString() : '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -349,3 +342,4 @@
     ]
 </div>
 </div>
+</body></html>
