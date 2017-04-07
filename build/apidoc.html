@@ -91,12 +91,6 @@
 
         </li>
 
-        <li>
-
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">gulp-uglify.</span>log</span>
-
-        </li>
-
     </ol></li>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-uglify.GulpUglifyError">module gulp-uglify.GulpUglifyError</a><ol>
@@ -178,46 +172,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.gulp-uglify.log">module gulp-uglify.log</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-uglify.log.debug">
-            function <span class="apidocSignatureSpan">gulp-uglify.log.</span>debug
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-uglify.log.error">
-            function <span class="apidocSignatureSpan">gulp-uglify.log.</span>error
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-uglify.log.info">
-            function <span class="apidocSignatureSpan">gulp-uglify.log.</span>info
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-uglify.log.warn">
-            function <span class="apidocSignatureSpan">gulp-uglify.log.</span>warn
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
 </ol></div>
 
 <div class="apidocSectionDiv">
@@ -250,8 +204,6 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-
-
 
 
 
@@ -384,87 +336,6 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">toString = function () {
     return _super.prototype.toString.call(this) + (this.cause ? &#x22;\nCaused by: &#x22; + this.cause.toString() : &#x27;&#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.gulp-uglify.log" id="apidoc.module.gulp-uglify.log">module gulp-uglify.log</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-uglify.log.debug" id="apidoc.element.gulp-uglify.log.debug">
-        function <span class="apidocSignatureSpan">gulp-uglify.log.</span>debug
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">debug = function () {
-  if (hasLog()) {
-    var log = require(&#x27;gulplog&#x27;);
-
-    log[level].apply(log, arguments);
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-uglify.log.error" id="apidoc.element.gulp-uglify.log.error">
-        function <span class="apidocSignatureSpan">gulp-uglify.log.</span>error
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">error = function () {
-  if (hasLog()) {
-    var log = require(&#x27;gulplog&#x27;);
-
-    log[level].apply(log, arguments);
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-uglify.log.info" id="apidoc.element.gulp-uglify.log.info">
-        function <span class="apidocSignatureSpan">gulp-uglify.log.</span>info
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">info = function () {
-  if (hasLog()) {
-    var log = require(&#x27;gulplog&#x27;);
-
-    log[level].apply(log, arguments);
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-uglify.log.warn" id="apidoc.element.gulp-uglify.log.warn">
-        function <span class="apidocSignatureSpan">gulp-uglify.log.</span>warn
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">warn = function () {
-  if (hasLog()) {
-    var log = require(&#x27;gulplog&#x27;);
-
-    log[level].apply(log, arguments);
-  }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>

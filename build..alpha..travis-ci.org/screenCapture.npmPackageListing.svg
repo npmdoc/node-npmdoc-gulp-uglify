@@ -1,0 +1,15 @@
+<svg height="190" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="190" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-07 18:38:19 +0000    16502 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-07 18:38:19 +0000     2750 bytes  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-07 18:38:19 +0000     1120 bytes  LICENSE.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-07 18:38:19 +0000     4598 bytes  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-07 18:38:19 +0000      267 bytes  index.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-07 18:38:19 +0000      337 bytes  lib/create-error.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-07 18:38:19 +0000      414 bytes  lib/gulp-uglify-error.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-07 18:38:19 +0000      345 bytes  lib/log.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-07 18:38:19 +0000     2895 bytes  minifier.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-07 18:38:19 +0000     3776 bytes  package.json</tspan>
+</text>
+</svg>
