@@ -13,7 +13,7 @@
 <tspan x="10" y="170">  ├─┬ make-error-cause@1.2.2 </tspan>
 <tspan x="10" y="186">  │ └── make-error@1.2.3 </tspan>
 <tspan x="10" y="202">  ├─┬ through2@2.0.3 </tspan>
-<tspan x="10" y="218">  │ ├─┬ readable-stream@2.2.8 </tspan>
+<tspan x="10" y="218">  │ ├─┬ readable-stream@2.2.9 </tspan>
 <tspan x="10" y="234">  │ │ ├── buffer-shims@1.0.0 </tspan>
 <tspan x="10" y="250">  │ │ ├── core-util-is@1.0.2 </tspan>
 <tspan x="10" y="266">  │ │ ├── inherits@2.0.3 </tspan>
@@ -22,7 +22,7 @@
 <tspan x="10" y="314">  │ │ ├── string_decoder@1.0.0 </tspan>
 <tspan x="10" y="330">  │ │ └── util-deprecate@1.0.2 </tspan>
 <tspan x="10" y="346">  │ └── xtend@4.0.1 </tspan>
-<tspan x="10" y="362">  ├─┬ uglify-js@2.8.21 </tspan>
+<tspan x="10" y="362">  ├─┬ uglify-js@2.8.22 </tspan>
 <tspan x="10" y="378">  │ ├── source-map@0.5.6 </tspan>
 <tspan x="10" y="394">  │ ├── uglify-to-browserify@1.0.2 </tspan>
 <tspan x="10" y="410">  │ └─┬ yargs@3.10.0 </tspan>
