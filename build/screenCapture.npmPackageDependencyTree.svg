@@ -30,7 +30,7 @@
 <tspan x="10" y="442">  │   ├─┬ cliui@2.1.0 </tspan>
 <tspan x="10" y="458">  │   │ ├─┬ center-align@0.1.3 </tspan>
 <tspan x="10" y="474">  │   │ │ ├─┬ align-text@0.1.4 </tspan>
-<tspan x="10" y="490">  │   │ │ │ ├─┬ kind-of@3.1.0 </tspan>
+<tspan x="10" y="490">  │   │ │ │ ├─┬ kind-of@3.2.0 </tspan>
 <tspan x="10" y="506">  │   │ │ │ │ └── is-buffer@1.1.5 </tspan>
 <tspan x="10" y="522">  │   │ │ │ ├── longest@1.0.1 </tspan>
 <tspan x="10" y="538">  │   │ │ │ └── repeat-string@1.6.1 </tspan>
