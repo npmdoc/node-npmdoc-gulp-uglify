@@ -1,6 +1,6 @@
 # npmdoc-gulp-uglify
 
-#### api documentation for  [gulp-uglify (v2.1.2)](https://github.com/terinjokes/gulp-uglify/)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-uglify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-uglify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-uglify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-uglify)
+#### basic api documentation for  [gulp-uglify (v2.1.2)](https://github.com/terinjokes/gulp-uglify/)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-uglify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-uglify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-uglify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-uglify)
 
 #### Minify files with UglifyJS.
 
@@ -123,7 +123,8 @@
         "lint": "eslint *.js lib test",
         "test": "mocha --require intelli-espower-loader"
     },
-    "version": "2.1.2"
+    "version": "2.1.2",
+    "bin": {}
 }
 ```
 
